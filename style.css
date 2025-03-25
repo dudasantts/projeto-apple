@@ -33,7 +33,7 @@ body {
     background-color: var(--cor01);
 }
 
-a.externo::after{
+a.externo::after {
     content: '\1F517';
 }
 
@@ -45,7 +45,7 @@ header {
     padding-top: 30px;
 }
 
-header > h1 {
+header>h1 {
     color: white;
     font-family: var(--font-destaque);
     font-size: 2.5em;
@@ -54,7 +54,7 @@ header > h1 {
 
 }
 
-header > p {
+header>p {
     font-family: var(--font-padrao);
     color: white;
     font-size: 1.1em;
@@ -62,7 +62,7 @@ header > p {
     padding-right: 10px;
     padding-left: 10px;
     margin: auto;
-    margin-bottom: 20px;
+    padding-bottom: 50px;
     text-shadow: 2px 2px 0px rgb(0, 0, 0, 0.315);
 }
 
@@ -72,7 +72,7 @@ nav {
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.363);
 }
 
-nav > a {
+nav>a {
     color: var(--cor01);
     padding: 10px;
     border-radius: 5px;
@@ -122,13 +122,13 @@ main p {
     line-height: 1.5em;
 }
 
-main strong{
+main strong {
     color: var(--cor03);
     font-weight: bold;
     padding: 2px 6px;
 }
 
-main a{
+main a {
     text-decoration: none;
     font-weight: bold;
     color: var(--cor03);
@@ -136,7 +136,7 @@ main a{
     padding: 2px 6px;
 }
 
-main a:hover{
+main a:hover {
     text-decoration: underline;
     color: var(--cor05);
 }
@@ -146,7 +146,7 @@ main img {
 
 }
 
-div.video{
+div.video {
     background-color: var(--cor05);
     margin: 0px -20px 30px -20px;
     padding: 20px;
@@ -154,7 +154,7 @@ div.video{
     position: relative;
 }
 
-div.video > iframe{
+div.video>iframe {
     position: absolute;
     top: 5%;
     left: 5%;
@@ -162,14 +162,14 @@ div.video > iframe{
     height: 90%;
 }
 
-aside{
+aside {
     background-color: var(--cor01);
     padding: 10px;
     border-radius: 10px;
     box-shadow: 3px 3px 8px black;
 }
 
-aside > h3{
+aside>h3 {
     background-color: var(--cor04);
     color: white;
     padding: 10px;
@@ -177,7 +177,7 @@ aside > h3{
     border-radius: 10px 10px 0px 0px;
 }
 
-aside > ul {
+aside>ul {
     list-style-type: '\1F5F8';
     list-style-position: inside;
     columns: 2;
